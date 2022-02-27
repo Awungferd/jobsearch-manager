@@ -1,0 +1,22 @@
+.ListItems{
+    display: flex;
+    justify-content:space-between;
+    background-color:rgb(127, 151, 160);
+    margin: 10px;
+    width: 180px;
+    height:20px;
+    border: 1px solid slategray;
+    border-radius: 3px;
+    padding: 0px 25 0 0;
+  }
+  p{
+      margin:0;
+  }
+  button{
+      background-color: orange;
+      }
+.Boot-btn{
+    display: flex;
+    align-items: center;
+    
+}
