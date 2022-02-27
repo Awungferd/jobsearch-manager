@@ -38,11 +38,11 @@ export default function List({ itemList, setItemList }) {
                                 <td>
                                     <Row className="g-2">
                                         <Col md>
-                                            <FloatingLabel controlId="floatingSelectGrid" label="Works with selects">
+                                            <FloatingLabel controlId="floatingSelectGrid">
                                                 <Form.Select aria-label="Floating label select example">
                                                     <option>Select</option>
                                                     <option value="1">Waiting</option>
-                                                    <option value="2">Interview Fixed</option>
+                                                    <option value="2">Interview</option>
                                                     <option value="3">Employed</option>
                                                     <option value="4">Rejected</option>
                                                 </Form.Select>
@@ -50,7 +50,7 @@ export default function List({ itemList, setItemList }) {
                                         </Col>
                                     </Row>
                                 </td>
-                                <td><Button className="Boot-btn" variant="outline-success" onClick={() => deleteItem(item.id)}>x</Button></td>
+                                <td><Button className="Boot-btn" variant="outline-success" onClick={() => deleteItem(item.id)}>X</Button></td>
                             </>
                         </tr>
                     ))}

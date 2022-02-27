@@ -31,11 +31,7 @@ function App() {
             addItemToList()
         }
     }
-    // const handleSaveForm = (event) => {
-    //     event.preventDefault()
-    //     localStorage.setItem('myData', JSON.stringify(itemList));
-    // }
-    console.log("LOCALSTORAGE",localStorage.getItem('myData'))
+       console.log("LOCALSTORAGE",localStorage.getItem('myData'))
     return (
         <div className="App">
             <div className="App-header">
@@ -75,7 +71,7 @@ function App() {
                     </Col>
                     <Col md>
                         <FloatingLabel controlId="floatingInputGrid">
-                            <Button variant="info" className="Boot-btn" onClick={addItemToList}>+</Button>
+                            <Button variant="info" className="Boot-btn" onClick={addItemToList}>Add to List</Button>
                         </FloatingLabel>
                     </Col>
 
